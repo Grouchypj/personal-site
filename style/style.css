@@ -42,6 +42,8 @@ nav a:hover{
     justify-self: top;
 }
 body {
+    grid-template-columns: 1fr, 2fr, 3fr, 4fr, 5fr, 6fr, 7fr, 8fr, 9fr, 10fr;
+    grid-template-rows: 1fr, 2fr, 3fr, 4fr, 5fr, 6fr, 7fr, 8fr, 9fr, 10fr;
     background-color: #F5E5FC;
     font-family: 'Ubuntu','Libre+Franklin';
     font-size: 22px;
@@ -87,25 +89,31 @@ h1{
 }
 p{
     font-family: 'montserrat';
-    font: 200;
+    font-size: 120%;
+    font-weight: bold
 }
 
 .racing-img{
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
+    align-self: center;
 }
 
 .Yerfdog-img{
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
+    align-items: center;
+    max-width: 30%;
 }
 
 .Buggy-img{
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
+    align-items: center;
+    max-width: 30%;
 }
 
 footer .social img {
